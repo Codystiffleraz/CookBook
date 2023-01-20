@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #D8D9C8;
+    color: #121113;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #121113;
+}
+
+.nav-div{
+    height: 100vh;
+    width: 200px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(142,164,122,1) 78%);
+    filter: drop-shadow(1px 1px 5px black);
+    margin-top: -2.5vh;
+}
+
+.nav-div h1{
+    font-size: 2.25rem;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.nav-but button{
+    width: 160px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 30px;
+    border: 0ch;
+    margin-left: 10px ;
+    font-size: 1.5rem;
+    filter: drop-shadow(2px 2px 4px #797979);
+}
+.nav-but i {
+    margin-left: 8px;
+    color: #8EA47A;
+}
+
+ul{
+    list-style-type: none;
+  }
