@@ -3,7 +3,7 @@ body {
  
 }
 
-.div-center {
+/* .div-center {
     background-color: white;
     width: 400px;
     height: 400px;
@@ -20,7 +20,8 @@ body {
     display: table;
     border-radius: 5%;
     box-shadow: 2px 2px rgb(117, 114, 114);
-}
+} */
+
 img {
 background-size: cover;
 }
