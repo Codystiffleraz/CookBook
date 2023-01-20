@@ -1,6 +1,10 @@
 
+body {
+ 
+}
 
 .div-center {
+    background-color: white;
     width: 400px;
     height: 400px;
     position: absolute;
@@ -14,8 +18,26 @@
     overflow: auto;
     padding: 1em 2em;
     display: table;
+    border-radius: 5%;
+    box-shadow: 2px 2px rgb(117, 114, 114);
+}
+img {
+background-size: cover;
 }
 
 
-/* stars */
+.logo{
+    margin-left: 120px;
+    height: 200px;
+    width: 200px;
+    margin-top: -50px
+}
 
+.btn {
+    background-color: #58a761;
+    border: none
+}
+
+h5 {
+    margin-bottom: 10px
+}
