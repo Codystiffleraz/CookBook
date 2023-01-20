@@ -13,7 +13,9 @@ app.use(express.static((__dirname, 'public')));
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
+app.post('/', (req, res))
 
+//Hey checking hwo to do this adding changes
 
 
 
