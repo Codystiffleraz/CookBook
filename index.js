@@ -9,7 +9,7 @@ app.use(express.static((__dirname, 'public')));
 
 
 
-app.get('/', (req, res) => res.render('Hello World!'))
+app.get('/', (req, res) => res.render('landing'))
 
 app.get('/login', function(req,res){
     res.render('login')
