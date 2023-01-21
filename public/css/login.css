@@ -51,8 +51,8 @@ h5 {
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
         .logo {
-            
-            margin-left: 50px;
+            margin-top: 2px;
+            margin-left: 40px;
         }
         
 
@@ -69,4 +69,40 @@ h5 {
             margin-left: 40px;
             margin-top: -20px;
         }
+     }
+
+
+     @media only screen 
+     and (device-width: 425px) {
+        .logo {
+             margin-left: 65px;
+        }
+        .image-span {
+            margin-top: 15px;
+        }
+     }
+
+
+     @media only screen 
+     and (device-width: 375px) {
+        .logo {
+            margin-left: 40px;
+
+        }
+        .image-span {
+            margin-top: 20px;
+        }
+
+     }
+
+     @media only screen 
+     and (device-width: 320px) {
+        .logo {
+            margin-left: 10px;
+
+        }
+        .image-span {
+            margin-top: 20px;
+        }
+
      }
