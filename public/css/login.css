@@ -51,11 +51,25 @@ h5 {
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
         .logo {
-            margin-top: 2px;
+        
             margin-left: 40px;
         }
+        .image-span {
+            margin-top: 30px;
+        }
+
         
 
+  }
+
+  
+  @media only screen 
+  and (device-width: 1024px) {
+     .logo {
+          margin-left: 100px;
+          
+     }
+     
   }
 
 
